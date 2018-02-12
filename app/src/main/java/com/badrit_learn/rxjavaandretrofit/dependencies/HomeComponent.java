@@ -1,6 +1,6 @@
 package com.badrit_learn.rxjavaandretrofit.dependencies;
 
-import com.badrit_learn.rxjavaandretrofit.ui.MainActivity;
+import com.badrit_learn.rxjavaandretrofit.ui.MyFragment;
 
 import dagger.Component;
 
@@ -10,5 +10,5 @@ import dagger.Component;
 
 @Component(modules = HomeModule.class)
 public interface HomeComponent {
-    void inJect(MainActivity activity);
+    void inJect(MyFragment activity);
 }
