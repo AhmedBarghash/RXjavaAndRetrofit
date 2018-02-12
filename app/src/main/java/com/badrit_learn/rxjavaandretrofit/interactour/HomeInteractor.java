@@ -19,9 +19,7 @@ public class HomeInteractor {
     public static final String BASE_URL = "https://randomuser.me/";
     public static final int NUMBER_OF_USERS = 100;
 
-    public HomeInteractor() {
-
-    }
+    public HomeInteractor() {}
 
     public void getList(OnReceiveResultListener callBack) {
         RequestInterface retrofit = new Retrofit.Builder()
